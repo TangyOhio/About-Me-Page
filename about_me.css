@@ -1,0 +1,157 @@
+
+/*
+    Mom is my website pretty yet
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+
+  A dank CSS Reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+Setting up the border box
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+    On with the formatting my dudes
+*/
+
+/* Basic Setup */
+.container {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 960px;
+  background: rgb(50, 68, 94);
+  color: white;
+  text-align: center;
+}
+
+/* Crap for the navigation bar */
+.nav li{
+  margin: 10px 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #c1c3c5;
+}
+
+/* The neat lil logo, maybe change to background image */
+.logo img {
+  height: 75px;
+  float: left;
+  margin: 5px 0 21px 10px;
+}
+
+/* Stuff after the nav bar */
+.landing {
+  margin: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+}
+
+/* This is specifically my pope picture because there are no other pictures */
+.landing img {
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+  margin: 15px 20% 15px 20%;
+  padding-bottom: 15px;
+}
+
+fieldset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.contact label {
+  color: #000000;
+  display: block;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.contact input {
+  background: #fff;
+  border: 1px solid #393f5a;
+  border-radius: 6px;
+  color: #000000;
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* These were such a mistake at the beginning */
+h1{
+  font-size: 30px;
+  padding: 10px;
+}
